@@ -235,7 +235,7 @@ def main():
     analisador = AnalisadorSemantico()
 
     # Especifica o nome do arquivo a ser processado
-    arquivo = "teste.txt"
+    arquivo = "analisador_semantico/teste.txt"
     
     # Chama o método processar da instância de ProcessarSemantica para obter as instruções do arquivo
     instrucoes = processador.processar(arquivo)
